@@ -6,7 +6,7 @@
 
 }
 body{
-  background: #000 url(../img/cover-image.jpg) right top no-repeat ;
+  background: #000 url(../img/cover-image.jpg) top right no-repeat ;
 }
 .header{
   max-width: 1146px;
