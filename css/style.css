@@ -1,14 +1,14 @@
-*{
+* {
   box-sizing: border-box;
   font-family: "Source Sans Pro";
   margin: 0;
   padding: 0;
-
 }
-body{
-  background: #000 url(../img/cover-image.jpg) top right no-repeat ;
+body {
+  background: #000 url("/img/cover-image.jpg") right top no-repeat;
 }
-.header{
+.header {
+  width: 90%;
   max-width: 1146px;
   margin: auto;
   margin-bottom: 0;
@@ -17,84 +17,87 @@ body{
   justify-content: space-between;
   align-items: center;
 }
-.logo{
+.logo {
   display: block;
 }
-.user{
+.user {
   display: flex;
   align-items: center;
   text-decoration: none;
 }
-.username{
+.username {
   font-size: 16px;
   color: #fff;
   line-height: 20px;
   padding-right: 15px;
 }
-.userphoto{
- width: 40px;
- height: 40px;
- border:none;
- border-radius: 50%;
+.userphoto {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
 }
-.offer{
+.offer {
+  width: 90%;
   max-width: 1146px;
   margin: auto;
   margin-top: 150px;
   margin-bottom: 300px;
 }
-.subtitle{
-  color: #E5E5E5;
+.subtitle {
+  color: #e5e5e5;
   opacity: 0.4;
   font-size: 16px;
   line-height: 140%;
   margin-top: 18px;
 }
-.subtitle-elements{
+.subtitle-elements {
   margin-right: 15px;
   font-size: 14px;
 }
-.subtitle-elements:last-child{
-  border: 1px solid #E5E5E5;;
+.subtitle-elements:last-child {
+  border: 1px solid #e5e5e5;
   padding: 1px 5px;
   border-radius: 2px;
 }
-.description{
-  color: #FFFFFF;
+.description {
+  color: #ffffff;
   font-size: 21px;
   line-height: 140%;
   margin-top: 10px;
   max-width: 460px;
 }
-.button-group{
+.button-group {
   margin-top: 35px;
   font-size: 16px;
   line-height: 140%;
   display: flex;
 }
-.first{
-  background: #EA6E20;
-  border:none;
+.first {
+  background: #ea6e20;
+  border: none;
   border-radius: 6px;
-  color:#fff;
+  color: #fff;
   margin-right: 15px;
-  height: 44px;
- width: 203px;
-  display: flex;
-  align-items: center;
-  padding: 12px 25px;
-}
-.second{
-  background: #2F2F2F;
-  border:none;
-  border-radius: 6px;
-  color:#fff;
   height: 44px;
   width: 203px;
   display: flex;
   align-items: center;
   padding: 12px 25px;
+  cursor: pointer;
 }
-.play{
+.second {
+  background: #2f2f2f;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  height: 44px;
+  width: 203px;
+  display: flex;
+  align-items: center;
+  padding: 12px 25px;
+  cursor: pointer;
+}
+.play {
   margin-right: 10px;
 }
