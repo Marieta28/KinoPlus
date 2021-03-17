@@ -5,7 +5,7 @@
   padding: 0;
 }
 body {
-  background: #000 url("/img/cover-image.jpg") right top no-repeat;
+  background: #000 url(../img/cover-image.jpg) right top no-repeat;
 }
 .header {
   width: 90%;
