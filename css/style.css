@@ -6,7 +6,7 @@
 }
 body {
   background: #000;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 .app {
   background: linear-gradient(
@@ -16,7 +16,6 @@ body {
     rgba(1, 2, 2, 0.2) 90.9%
   );
   min-height: 100vh;
-  color: white;
 }
 .header {
   width: 90%;
@@ -118,7 +117,7 @@ body {
   .app {
     height: auto;
     padding-bottom: 65%;
-    background: url(../img/cover-image.jpg) no-repeat bottom center / 50%;
+    background: #000 url(../img/cover-image.jpg) no-repeat bottom center / 50%;
   }
 
   .offer {
