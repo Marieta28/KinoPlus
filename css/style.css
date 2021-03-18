@@ -10,6 +10,9 @@
 body {
   background: #000;
 }
+.img {
+  display: none;
+}
 .app {
   background: linear-gradient(
     90deg,
@@ -117,10 +120,11 @@ body {
   video {
     display: none;
   }
-  .app {
-    height: auto;
-    padding-bottom: 65%;
-    background: #000 url(../img/cover-image.jpg) no-repeat bottom center / 50%;
+  .img {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
   }
 
   .offer {
