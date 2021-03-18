@@ -9,6 +9,7 @@
 }
 body {
   background: #000;
+  max-width: 100%;
 }
 .img {
   display: none;
@@ -20,7 +21,7 @@ body {
     #010202 45%,
     rgba(1, 2, 2, 0.2) 90.9%
   );
-  min-height: 300vh;
+  min-height: 100vh;
   color: white;
 }
 .header {
