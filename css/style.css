@@ -3,10 +3,12 @@
   font-family: "Source Sans Pro";
   margin: 0;
   padding: 0;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 body {
   background: #000;
-  overflow: hidden;
 }
 .app {
   background: linear-gradient(
@@ -16,6 +18,7 @@ body {
     rgba(1, 2, 2, 0.2) 90.9%
   );
   min-height: 100vh;
+  color: white;
 }
 .header {
   width: 90%;
