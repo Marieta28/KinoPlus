@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+  font-family: "Source Sans Pro";
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #000;
+  max-width: 100%;
+}
+.img {
+  display: none;
+}
+.app {
+  background: linear-gradient(
+    90deg,
+    #010202 0%,
+    #010202 45%,
+    rgba(1, 2, 2, 0.2) 90.9%
+  );
+  min-height: 100vh;
+  color: white;
+}
+.header {
+  width: 90%;
+  max-width: 1146px;
+  margin: auto;
+  margin-bottom: 0;
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: block;
+}
+.user {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.username {
+  font-size: 16px;
+  color: #fff;
+  line-height: 20px;
+  padding-right: 15px;
+}
+.userphoto {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+}
+.offer {
+  width: 90%;
+  max-width: 1146px;
+  margin: auto;
+  margin-top: 150px;
+}
+.subtitle {
+  color: #e5e5e5;
+  opacity: 0.4;
+  font-size: 16px;
+  line-height: 140%;
+  margin-top: 18px;
+}
+.subtitle-elements {
+  margin-right: 15px;
+  font-size: 14px;
+}
+.subtitle-elements:last-child {
+  border: 1px solid #e5e5e5;
+  padding: 1px 5px;
+  border-radius: 2px;
+}
+.description {
+  color: #ffffff;
+  font-size: 21px;
+  line-height: 140%;
+  margin-top: 10px;
+  max-width: 460px;
+}
+.button-group {
+  margin-top: 35px;
+  font-size: 16px;
+  line-height: 140%;
+  display: flex;
+}
+.first {
+  background: #ea6e20;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  margin-right: 15px;
+  height: 44px;
+  max-width: 203px;
+  display: flex;
+  align-items: center;
+  padding: 12px 25px;
+  cursor: pointer;
+}
+.second {
+  background: #2f2f2f;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  height: 44px;
+  max-width: 203px;
+  display: flex;
+  align-items: center;
+  padding: 12px 25px;
+  cursor: pointer;
+}
+.trailer-button {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+.play {
+  margin-right: 10px;
+}
+@media (max-width: 786px) {
+  video {
+    display: none;
+  }
+  .img {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+
+  .offer {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: start;
+  }
+  .description {
+    font-size: 16px;
+    max-width: 333px;
+  }
+  .film-logo {
+    max-width: 100%;
+  }
+  .subtitle-elements {
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 576px) {
+  .username,
+  .button-text {
+    display: none;
+  }
+  .play {
+    margin-right: 0;
+  }
+}
+@media (max-width: 420px) {
+  .offer {
+    align-items: start;
+  }
+}
